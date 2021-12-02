@@ -18,6 +18,8 @@ def part_one(inputs):
 
 # part_one(puzzle_input)
 
+# Day 1 - Part 2
+
 def part_two(inputs):
     new_list = []
     for i in range (0, len(inputs)-2):
