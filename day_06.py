@@ -9,7 +9,7 @@ print(puzzle_input)
 
 fish = [puzzle_input.count(i) for i in range(9)]
 
-for i in range(256):
+for i in range(4):
     num = fish.pop(0)
     fish[6] += num
     fish.append(num)
